@@ -214,5 +214,17 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Analysis data and outputs
+*.xlsx
+*.xls
+*.csv
+results/
+output/
+outputs/
+
+# Serialized objects
+*.pkl
+*.joblib
+
 # Streamlit
 .streamlit/secrets.toml
