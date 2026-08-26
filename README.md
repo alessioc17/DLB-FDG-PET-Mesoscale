@@ -54,13 +54,13 @@ Required packages:
 ## Installation
 
 ```bash
-Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/alessioc17/DLB-FDG-PET-Mesoscale.git
 
 cd DLB-FDG-PET-Mesoscale
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 ```
@@ -77,7 +77,7 @@ No patient-level data are distributed with this repository.
 ## Usage
 
 ```bash
-Example:
+# Example:
 
 python run_analysis.py \
     --input-excel data.xlsx \
@@ -131,15 +131,15 @@ Patient-level imaging and clinical data are not included in this repository.
 
 The code is intended to be used with appropriately governed datasets for which the user has the necessary ethical and institutional permissions.
 
-```markdown
 ## Citation
 
 If you use this software, please cite:
 
+```markdown
 Cirone A, et al. *Mesoscale metabolic connectivity captures clinical heterogeneity in dementia with Lewy bodies*. Manuscript submitted for publication.
+```
 
 The citation will be updated with the final publication details upon acceptance.
-```
 
 ## License
 
