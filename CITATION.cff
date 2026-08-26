@@ -9,3 +9,6 @@ authors:
     given-names: "Alessio"
 repository-code: "https://github.com/alessioc17/DLB-FDG-PET-Mesoscale"
 license: "MIT"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22110025"
