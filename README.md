@@ -128,8 +128,10 @@ The code is intended to be used with appropriately governed datasets for which t
 
 If you use this software, please cite:
 
-[Paper citation]
+Cirone. A, et al. (Submitted). "Mesoscale metabolic connectivity captures clinical heterogeneity in dementia with Lewy bodies."
+
+*Note: This citation will be updated with full venue details once the paper is published.*
 
 ## License
 
-[license information]
+MIT License 
