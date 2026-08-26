@@ -2,6 +2,8 @@
 
 Computational pipeline for multiscale analysis of clinical heterogeneity in dementia with Lewy bodies using FDG-PET.
 
+This repository contains the analysis code accompanying the study and is intended to facilitate reproducibility of the reported computational analyses.
+
 ## Overview
 
 This repository contains the Python implementation used to perform the analyses described in:
@@ -29,14 +31,14 @@ The pipeline implements:
 1. Regional FDG-PET uptake → XGBoost + LOOCV
 2. Metabolic connectome → PCA + XGBoost + LOOCV
 3. Metabolic connectome → RFE + XGBoost + LOOCV
-4. Metabolic connectome → CPM + logistic regression + LOOCV 
-5. Global graph metrics → XGBoost + LOOCV
+4. Global graph metrics → XGBoost + LOOCV
+5. Metabolic connectome → CPM + logistic regression + LOOCV
 
 Permutation testing is applied to the complete predictive pipeline.
 
 ## Requirements
 
-Python 3.10
+Python 3.11
 
 Required packages:
 
@@ -51,14 +53,17 @@ Required packages:
 
 ## Installation
 
+```bash
 Clone the repository:
 
 git clone https://github.com/alessioc17/DLB-FDG-PET-Mesoscale.git
+
 cd DLB-FDG-PET-Mesoscale
 
 Install dependencies:
 
 pip install -r requirements.txt
+```
 
 ## Input data
 
@@ -71,6 +76,7 @@ No patient-level data are distributed with this repository.
 
 ## Usage
 
+```bash
 Example:
 
 python run_analysis.py \
@@ -80,6 +86,7 @@ python run_analysis.py \
     --id-column subject_id \
     --labels "UPDRS=UPDRS_binary,MMSE=MMSE_binary,Hallucinations=hallucinations" \
     --output-dir results
+```
 
 ## Main parameters
 
@@ -124,14 +131,16 @@ Patient-level imaging and clinical data are not included in this repository.
 
 The code is intended to be used with appropriately governed datasets for which the user has the necessary ethical and institutional permissions.
 
+```markdown
 ## Citation
 
 If you use this software, please cite:
 
-Cirone. A, et al. (Submitted). "Mesoscale metabolic connectivity captures clinical heterogeneity in dementia with Lewy bodies."
+Cirone A, et al. *Mesoscale metabolic connectivity captures clinical heterogeneity in dementia with Lewy bodies*. Manuscript submitted for publication.
 
-*Note: This citation will be updated with full venue details once the paper is published.*
+The citation will be updated with the final publication details upon acceptance.
+```
 
 ## License
 
-MIT License 
+MIT License
