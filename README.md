@@ -53,7 +53,7 @@ Required packages:
 
 Clone the repository:
 
-git clone https://github.com/[USERNAME]/DLB-FDG-PET-Mesoscale.git
+git clone https://github.com/alessioc17/DLB-FDG-PET-Mesoscale.git
 cd DLB-FDG-PET-Mesoscale
 
 Install dependencies:
