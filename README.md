@@ -133,10 +133,16 @@ The code is intended to be used with appropriately governed datasets for which t
 
 ## Citation
 
-If you use this software, please cite:
+If you use this software, please cite the associated article and the specific software release:
 
 ```markdown
 Cirone A, et al. *Mesoscale metabolic connectivity captures clinical heterogeneity in dementia with Lewy bodies*. Manuscript submitted for publication.
+```
+
+Software:
+
+```markdown
+Cirone A. (2026). DLB-FDG-PET-Mesoscale (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22110025
 ```
 
 The citation will be updated with the final publication details upon acceptance.
