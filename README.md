@@ -38,7 +38,7 @@ Permutation testing is applied to the complete predictive pipeline.
 
 ## Requirements
 
-Python 3.11
+Python 3.10
 
 Required packages:
 
