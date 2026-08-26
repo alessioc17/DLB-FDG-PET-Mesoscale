@@ -1,5 +1,7 @@
 # DLB-FDG-PET-Mesoscale
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.22110025)
+
 Computational pipeline for multiscale analysis of clinical heterogeneity in dementia with Lewy bodies using FDG-PET.
 
 This repository contains the analysis code accompanying the study and is intended to facilitate reproducibility of the reported computational analyses.
@@ -141,7 +143,9 @@ Cirone A, et al. *Mesoscale metabolic connectivity captures clinical heterogenei
 
 Software:
 
+```markdown
 Cirone A. (2026). DLB-FDG-PET-Mesoscale (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22110025
+```
 
 The citation will be updated with the final publication details upon acceptance.
 
